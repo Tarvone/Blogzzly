@@ -25,7 +25,8 @@ def send_mail(name, email, message):
         sender=('Tarv from Tirva Softwares', os.getenv('HOST_USER')),
         recipients=[os.getenv('RECEIVER_MAIL')],
     )
-    msg.html = render_template("Email-Template.html", name=name, message=message)
+    host_url = request.host_url
+    msg.html = render_template("Email-Template.html", host_url=host_url, name=name, message=message)
     mail.send(msg)
 
 @app.context_processor
