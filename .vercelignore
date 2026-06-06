@@ -1,0 +1,2 @@
+# Ensure the build container does not discard your frontend assets
+!web/static/**
