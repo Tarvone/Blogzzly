@@ -1,13 +1,27 @@
 {
   "version": 2,
-  "rewrites": [
+  "builds": [
     {
-      "source": "/api/:path*",
-      "destination": "/proxy/api/:path*"
+      "src": "proxy/api/index.js",
+      "use": "@vercel/node"
     },
     {
-      "source": "/:path*",
-      "destination": "/web/:path*"
+      "src": "web/index.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/proxy/(.*)",
+      "dest": "proxy/api/index.js"
+    },
+    {
+      "src": "/static/(.*)",
+      "dest": "web/static/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "web/index.py"
     }
   ]
 }
