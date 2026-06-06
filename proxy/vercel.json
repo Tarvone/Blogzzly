@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "buildCommand": "sh vercel.sh",
+    "builds": [
+        {
+        "src": "api/index.js",
+        "use": "@vercel/node"
+        }
+    ],
+    "rewrites": [
+        {
+          "source": "/(.*)", 
+          "destination": "/api/index.js" 
+        }
+      ]
+}

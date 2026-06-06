@@ -1,20 +1,11 @@
-# .gitignore file
+# Web environment exclusions
+web/venv/
+web/.venv/
+web/__pycache__/
+web/*.pyc
+web/.env
 
-# Python
-*.pyc
-__pycache__/
-
-# Environment Variables
-.env
-
-# Virtual Environment
-venv/
-.venv/
-env/
-.env/
-
-# IDE
-.vscode/
-
-node_modules
-app.log
+# Proxy environment exclusions
+proxy/node_modules/
+proxy/.npm
+proxy/.env

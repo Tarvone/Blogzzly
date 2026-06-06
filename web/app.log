@@ -1,0 +1,254 @@
+2025-05-30 13:47:58,455 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:47:58,455 INFO: [33mPress CTRL+C to quit[0m [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:47:58,469 INFO:  * Restarting with stat [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:47:59,634 WARNING:  * Debugger is active! [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:47:59,720 INFO:  * Debugger PIN: 136-981-092 [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:49:49,562 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:49:49,563 INFO: [33mPress CTRL+C to quit[0m [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:49:49,565 INFO:  * Restarting with stat [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:49:50,453 WARNING:  * Debugger is active! [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:49:50,473 INFO:  * Debugger PIN: 136-981-092 [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:53:28,079 INFO: 127.0.0.1 - - [30/May/2025 13:53:28] "GET / HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:53:28,433 INFO: 127.0.0.1 - - [30/May/2025 13:53:28] "GET /static/images/landing.jpg HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:53:28,435 INFO: 127.0.0.1 - - [30/May/2025 13:53:28] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:53:28,452 INFO: 127.0.0.1 - - [30/May/2025 13:53:28] "GET /static/css/output.css HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:53:29,174 INFO: 127.0.0.1 - - [30/May/2025 13:53:29] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:53:35,366 INFO: 127.0.0.1 - - [30/May/2025 13:53:35] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:53:35,443 INFO: 127.0.0.1 - - [30/May/2025 13:53:35] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:53:35,444 INFO: 127.0.0.1 - - [30/May/2025 13:53:35] "[36mGET /static/css/output.css HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:53:35,446 INFO: 127.0.0.1 - - [30/May/2025 13:53:35] "GET /static/images/contact.png HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:55:23,785 INFO: 127.0.0.1 - - [30/May/2025 13:55:23] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:55:23,863 INFO: 127.0.0.1 - - [30/May/2025 13:55:23] "GET /static/css/output.css HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:55:23,865 INFO: 127.0.0.1 - - [30/May/2025 13:55:23] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:55:23,866 INFO: 127.0.0.1 - - [30/May/2025 13:55:23] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:55:24,389 INFO: 127.0.0.1 - - [30/May/2025 13:55:24] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:58:41,389 INFO: 127.0.0.1 - - [30/May/2025 13:58:41] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:58:41,465 INFO: 127.0.0.1 - - [30/May/2025 13:58:41] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:58:41,468 INFO: 127.0.0.1 - - [30/May/2025 13:58:41] "GET /static/css/output.css HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:58:41,470 INFO: 127.0.0.1 - - [30/May/2025 13:58:41] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:58:42,253 INFO: 127.0.0.1 - - [30/May/2025 13:58:42] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:58:56,109 INFO: 127.0.0.1 - - [30/May/2025 13:58:56] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:58:56,185 INFO: 127.0.0.1 - - [30/May/2025 13:58:56] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:58:56,185 INFO: 127.0.0.1 - - [30/May/2025 13:58:56] "[36mGET /static/css/output.css HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:58:56,208 INFO: 127.0.0.1 - - [30/May/2025 13:58:56] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:58:56,307 INFO: 127.0.0.1 - - [30/May/2025 13:58:56] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:59:36,184 INFO: 127.0.0.1 - - [30/May/2025 13:59:36] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:59:36,266 INFO: 127.0.0.1 - - [30/May/2025 13:59:36] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:59:36,271 INFO: 127.0.0.1 - - [30/May/2025 13:59:36] "[36mGET /static/css/output.css HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:59:36,274 INFO: 127.0.0.1 - - [30/May/2025 13:59:36] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 13:59:36,395 INFO: 127.0.0.1 - - [30/May/2025 13:59:36] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:00:00,615 INFO: 127.0.0.1 - - [30/May/2025 14:00:00] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:00:00,705 INFO: 127.0.0.1 - - [30/May/2025 14:00:00] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:00:00,710 INFO: 127.0.0.1 - - [30/May/2025 14:00:00] "[36mGET /static/css/output.css HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:00:00,725 INFO: 127.0.0.1 - - [30/May/2025 14:00:00] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:00:00,751 INFO: 127.0.0.1 - - [30/May/2025 14:00:00] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:01:04,706 INFO: 127.0.0.1 - - [30/May/2025 14:01:04] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:01:04,785 INFO: 127.0.0.1 - - [30/May/2025 14:01:04] "GET /static/css/output.css HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:01:04,796 INFO: 127.0.0.1 - - [30/May/2025 14:01:04] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:01:04,800 INFO: 127.0.0.1 - - [30/May/2025 14:01:04] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:01:04,839 INFO: 127.0.0.1 - - [30/May/2025 14:01:04] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:01:07,771 INFO: 127.0.0.1 - - [30/May/2025 14:01:07] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:01:07,885 INFO: 127.0.0.1 - - [30/May/2025 14:01:07] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:01:07,891 INFO: 127.0.0.1 - - [30/May/2025 14:01:07] "[36mGET /static/css/output.css HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:01:07,894 INFO: 127.0.0.1 - - [30/May/2025 14:01:07] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:01:07,971 INFO: 127.0.0.1 - - [30/May/2025 14:01:07] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:01:53,707 INFO: 127.0.0.1 - - [30/May/2025 14:01:53] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:01:53,785 INFO: 127.0.0.1 - - [30/May/2025 14:01:53] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:01:53,792 INFO: 127.0.0.1 - - [30/May/2025 14:01:53] "[36mGET /static/css/output.css HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:01:53,795 INFO: 127.0.0.1 - - [30/May/2025 14:01:53] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:01:53,956 INFO: 127.0.0.1 - - [30/May/2025 14:01:53] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:03:20,108 INFO: 127.0.0.1 - - [30/May/2025 14:03:20] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:03:20,200 INFO: 127.0.0.1 - - [30/May/2025 14:03:20] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:03:20,205 INFO: 127.0.0.1 - - [30/May/2025 14:03:20] "GET /static/css/output.css HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:03:20,218 INFO: 127.0.0.1 - - [30/May/2025 14:03:20] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:03:21,046 INFO: 127.0.0.1 - - [30/May/2025 14:03:21] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:03:53,666 INFO: 127.0.0.1 - - [30/May/2025 14:03:53] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:03:53,746 INFO: 127.0.0.1 - - [30/May/2025 14:03:53] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:03:53,746 INFO: 127.0.0.1 - - [30/May/2025 14:03:53] "GET /static/css/output.css HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:03:53,750 INFO: 127.0.0.1 - - [30/May/2025 14:03:53] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:03:53,844 INFO: 127.0.0.1 - - [30/May/2025 14:03:53] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:04:29,315 INFO: 127.0.0.1 - - [30/May/2025 14:04:29] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:04:29,387 INFO: 127.0.0.1 - - [30/May/2025 14:04:29] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:04:29,393 INFO: 127.0.0.1 - - [30/May/2025 14:04:29] "GET /static/css/output.css HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:04:29,400 INFO: 127.0.0.1 - - [30/May/2025 14:04:29] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:04:29,520 INFO: 127.0.0.1 - - [30/May/2025 14:04:29] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:04:54,646 INFO: 127.0.0.1 - - [30/May/2025 14:04:54] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:04:54,731 INFO: 127.0.0.1 - - [30/May/2025 14:04:54] "GET /static/css/output.css HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:04:54,732 INFO: 127.0.0.1 - - [30/May/2025 14:04:54] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:04:54,733 INFO: 127.0.0.1 - - [30/May/2025 14:04:54] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:04:54,814 INFO: 127.0.0.1 - - [30/May/2025 14:04:54] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:05:05,568 INFO: 127.0.0.1 - - [30/May/2025 14:05:05] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:05:05,650 INFO: 127.0.0.1 - - [30/May/2025 14:05:05] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:05:05,656 INFO: 127.0.0.1 - - [30/May/2025 14:05:05] "GET /static/css/output.css HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:05:05,660 INFO: 127.0.0.1 - - [30/May/2025 14:05:05] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:05:05,776 INFO: 127.0.0.1 - - [30/May/2025 14:05:05] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:05:26,810 INFO: 127.0.0.1 - - [30/May/2025 14:05:26] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:05:26,901 INFO: 127.0.0.1 - - [30/May/2025 14:05:26] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:05:26,905 INFO: 127.0.0.1 - - [30/May/2025 14:05:26] "[36mGET /static/css/output.css HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:05:26,908 INFO: 127.0.0.1 - - [30/May/2025 14:05:26] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:05:26,994 INFO: 127.0.0.1 - - [30/May/2025 14:05:26] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:05:37,635 INFO: 127.0.0.1 - - [30/May/2025 14:05:37] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:05:37,711 INFO: 127.0.0.1 - - [30/May/2025 14:05:37] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:05:37,714 INFO: 127.0.0.1 - - [30/May/2025 14:05:37] "GET /static/css/output.css HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:05:37,715 INFO: 127.0.0.1 - - [30/May/2025 14:05:37] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:05:37,751 INFO: 127.0.0.1 - - [30/May/2025 14:05:37] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:05:49,527 INFO: 127.0.0.1 - - [30/May/2025 14:05:49] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:05:49,613 INFO: 127.0.0.1 - - [30/May/2025 14:05:49] "[36mGET /static/css/output.css HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:05:49,615 INFO: 127.0.0.1 - - [30/May/2025 14:05:49] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:05:49,616 INFO: 127.0.0.1 - - [30/May/2025 14:05:49] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:05:49,660 INFO: 127.0.0.1 - - [30/May/2025 14:05:49] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:05:51,852 INFO: 127.0.0.1 - - [30/May/2025 14:05:51] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:05:51,924 INFO: 127.0.0.1 - - [30/May/2025 14:05:51] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:05:51,931 INFO: 127.0.0.1 - - [30/May/2025 14:05:51] "[36mGET /static/css/output.css HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:05:51,944 INFO: 127.0.0.1 - - [30/May/2025 14:05:51] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:05:52,013 INFO: 127.0.0.1 - - [30/May/2025 14:05:52] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:06:00,533 INFO: 127.0.0.1 - - [30/May/2025 14:06:00] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:06:00,605 INFO: 127.0.0.1 - - [30/May/2025 14:06:00] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:06:00,607 INFO: 127.0.0.1 - - [30/May/2025 14:06:00] "GET /static/css/output.css HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:06:00,610 INFO: 127.0.0.1 - - [30/May/2025 14:06:00] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:06:00,651 INFO: 127.0.0.1 - - [30/May/2025 14:06:00] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:06:01,952 INFO: 127.0.0.1 - - [30/May/2025 14:06:01] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:06:02,025 INFO: 127.0.0.1 - - [30/May/2025 14:06:02] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:06:02,030 INFO: 127.0.0.1 - - [30/May/2025 14:06:02] "[36mGET /static/css/output.css HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:06:02,039 INFO: 127.0.0.1 - - [30/May/2025 14:06:02] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:06:02,064 INFO: 127.0.0.1 - - [30/May/2025 14:06:02] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:06:04,047 INFO: 127.0.0.1 - - [30/May/2025 14:06:04] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:06:04,167 INFO: 127.0.0.1 - - [30/May/2025 14:06:04] "[36mGET /static/css/output.css HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:06:04,171 INFO: 127.0.0.1 - - [30/May/2025 14:06:04] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:06:04,172 INFO: 127.0.0.1 - - [30/May/2025 14:06:04] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:06:04,275 INFO: 127.0.0.1 - - [30/May/2025 14:06:04] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:07:58,056 INFO: 127.0.0.1 - - [30/May/2025 14:07:58] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:07:58,147 INFO: 127.0.0.1 - - [30/May/2025 14:07:58] "GET /static/css/output.css HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:07:58,148 INFO: 127.0.0.1 - - [30/May/2025 14:07:58] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:07:58,149 INFO: 127.0.0.1 - - [30/May/2025 14:07:58] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:07:58,735 INFO: 127.0.0.1 - - [30/May/2025 14:07:58] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:08:30,142 INFO: 127.0.0.1 - - [30/May/2025 14:08:30] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:08:30,217 INFO: 127.0.0.1 - - [30/May/2025 14:08:30] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:08:30,222 INFO: 127.0.0.1 - - [30/May/2025 14:08:30] "GET /static/css/output.css HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:08:30,228 INFO: 127.0.0.1 - - [30/May/2025 14:08:30] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:08:30,296 INFO: 127.0.0.1 - - [30/May/2025 14:08:30] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:08:33,259 INFO: 127.0.0.1 - - [30/May/2025 14:08:33] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:08:33,336 INFO: 127.0.0.1 - - [30/May/2025 14:08:33] "[36mGET /static/css/output.css HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:08:33,342 INFO: 127.0.0.1 - - [30/May/2025 14:08:33] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:08:33,344 INFO: 127.0.0.1 - - [30/May/2025 14:08:33] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:08:33,372 INFO: 127.0.0.1 - - [30/May/2025 14:08:33] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:08:36,826 INFO: 127.0.0.1 - - [30/May/2025 14:08:36] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:08:36,881 INFO: 127.0.0.1 - - [30/May/2025 14:08:36] "[36mGET /static/css/output.css HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:08:36,881 INFO: 127.0.0.1 - - [30/May/2025 14:08:36] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:08:36,885 INFO: 127.0.0.1 - - [30/May/2025 14:08:36] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:08:37,029 INFO: 127.0.0.1 - - [30/May/2025 14:08:37] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:09:17,393 INFO: 127.0.0.1 - - [30/May/2025 14:09:17] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:09:17,454 INFO: 127.0.0.1 - - [30/May/2025 14:09:17] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:09:17,478 INFO: 127.0.0.1 - - [30/May/2025 14:09:17] "[36mGET /static/css/output.css HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:09:17,492 INFO: 127.0.0.1 - - [30/May/2025 14:09:17] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:09:17,562 INFO: 127.0.0.1 - - [30/May/2025 14:09:17] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:09:42,998 INFO: 127.0.0.1 - - [30/May/2025 14:09:42] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:09:43,076 INFO: 127.0.0.1 - - [30/May/2025 14:09:43] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:09:43,079 INFO: 127.0.0.1 - - [30/May/2025 14:09:43] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:09:43,080 INFO: 127.0.0.1 - - [30/May/2025 14:09:43] "GET /static/css/output.css HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:09:43,177 INFO: 127.0.0.1 - - [30/May/2025 14:09:43] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:09:49,272 INFO: 127.0.0.1 - - [30/May/2025 14:09:49] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:09:49,363 INFO: 127.0.0.1 - - [30/May/2025 14:09:49] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:09:49,366 INFO: 127.0.0.1 - - [30/May/2025 14:09:49] "[36mGET /static/css/output.css HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:09:49,367 INFO: 127.0.0.1 - - [30/May/2025 14:09:49] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:09:49,488 INFO: 127.0.0.1 - - [30/May/2025 14:09:49] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:10:00,794 INFO: 127.0.0.1 - - [30/May/2025 14:10:00] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:10:00,904 INFO: 127.0.0.1 - - [30/May/2025 14:10:00] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:10:00,926 INFO: 127.0.0.1 - - [30/May/2025 14:10:00] "GET /static/css/output.css HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:10:00,942 INFO: 127.0.0.1 - - [30/May/2025 14:10:00] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:10:01,096 INFO: 127.0.0.1 - - [30/May/2025 14:10:01] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:10:21,435 INFO: 127.0.0.1 - - [30/May/2025 14:10:21] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:10:21,721 INFO: 127.0.0.1 - - [30/May/2025 14:10:21] "[36mGET /static/css/output.css HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:10:21,737 INFO: 127.0.0.1 - - [30/May/2025 14:10:21] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:10:21,831 INFO: 127.0.0.1 - - [30/May/2025 14:10:21] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:10:22,022 INFO: 127.0.0.1 - - [30/May/2025 14:10:22] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:11:09,281 INFO: 127.0.0.1 - - [30/May/2025 14:11:09] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:11:09,374 INFO: 127.0.0.1 - - [30/May/2025 14:11:09] "[36mGET /static/css/output.css HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:11:09,377 INFO: 127.0.0.1 - - [30/May/2025 14:11:09] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:11:09,377 INFO: 127.0.0.1 - - [30/May/2025 14:11:09] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:11:09,466 INFO: 127.0.0.1 - - [30/May/2025 14:11:09] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:11:18,700 INFO: 127.0.0.1 - - [30/May/2025 14:11:18] "[36mGET /static/css/output.css HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:11:18,781 INFO: 127.0.0.1 - - [30/May/2025 14:11:18] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:13:26,482 INFO:  * Detected change in 'C:\\Users\\Admin\\Documents\\GitHub\\blogzzly-virtual\\Blogzzly\\index.py', reloading [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:13:26,717 INFO:  * Restarting with stat [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:13:32,079 WARNING:  * Debugger is active! [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:13:32,100 INFO:  * Debugger PIN: 136-981-092 [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:13:35,417 INFO: 127.0.0.1 - - [30/May/2025 14:13:35] "GET /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:13:35,756 INFO: 127.0.0.1 - - [30/May/2025 14:13:35] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:13:35,758 INFO: 127.0.0.1 - - [30/May/2025 14:13:35] "[36mGET /static/css/output.css HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:13:35,768 INFO: 127.0.0.1 - - [30/May/2025 14:13:35] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:13:36,001 INFO: 127.0.0.1 - - [30/May/2025 14:13:36] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:13:54,895 ERROR: Failed to send email [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Blogzzly\index.py:85]
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Blogzzly\index.py", line 82, in contact
+    send_mail(name, email, message)
+  File "C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Blogzzly\index.py", line 34, in send_mail
+    msg.html = render_template("Email-Template.html", name=name, message=message)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\jinja2\environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Blogzzly\templates\Email-Template.html", line 70, in template
+    <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#333333;font-size:14px">{{ message | e | nl2br }}</p>
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateAssertionError: No filter named 'nl2br'.
+2025-05-30 14:13:54,921 INFO: 127.0.0.1 - - [30/May/2025 14:13:54] "POST /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:13:54,977 INFO: 127.0.0.1 - - [30/May/2025 14:13:54] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:13:54,984 INFO: 127.0.0.1 - - [30/May/2025 14:13:54] "[36mGET /static/css/output.css HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:13:54,986 INFO: 127.0.0.1 - - [30/May/2025 14:13:54] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:16:17,950 ERROR: Failed to send email [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Blogzzly\index.py:85]
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Blogzzly\index.py", line 82, in contact
+    send_mail(name, email, message)
+  File "C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Blogzzly\index.py", line 35, in send_mail
+    mail.send(msg)
+  File "C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\flask_mail\__init__.py", line 539, in send
+    with self.connect() as connection:
+  File "C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\flask_mail\__init__.py", line 127, in __enter__
+    self.host = self.configure_host()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\flask_mail\__init__.py", line 144, in configure_host
+    host = smtplib.SMTP(self.mail.server, self.mail.port)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python311\Lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python311\Lib\smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python311\Lib\smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python311\Lib\socket.py", line 851, in create_connection
+    raise exceptions[0]
+  File "C:\Program Files\Python311\Lib\socket.py", line 836, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-05-30 14:16:17,992 INFO: 127.0.0.1 - - [30/May/2025 14:16:17] "POST /contact HTTP/1.1" 200 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:16:18,059 INFO: 127.0.0.1 - - [30/May/2025 14:16:18] "[36mGET /static/images/contact.png HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:16:18,060 INFO: 127.0.0.1 - - [30/May/2025 14:16:18] "[36mGET /static/css/output.css HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:16:18,060 INFO: 127.0.0.1 - - [30/May/2025 14:16:18] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 - [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:17:07,664 INFO:  * Detected change in 'C:\\Users\\Admin\\Documents\\GitHub\\blogzzly-virtual\\Blogzzly\\index.py', reloading [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:17:07,791 INFO:  * Restarting with stat [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:20:37,091 INFO:  * Restarting with stat [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:23:16,126 INFO:  * Restarting with stat [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:25:48,914 INFO:  * Restarting with stat [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]
+2025-05-30 14:27:09,505 INFO:  * Restarting with stat [in C:\Users\Admin\Documents\GitHub\blogzzly-virtual\Lib\site-packages\werkzeug\_internal.py:97]

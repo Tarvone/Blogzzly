@@ -19,14 +19,21 @@ app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USE_SSL'] = False
 mail = Mail(app)
 
-def send_mail(name, email, message):
+def send_mail(sender_name, sender_email, message):
     msg = Message(
-        subject=f"Blogzzly contact form submission from {name} <{email}>",
-        sender=('Tarv from Tirva Softwares', os.getenv('HOST_USER')),
+        subject=f"Blogzzly contact form submission from {sender_name} <{sender_email}>",
+        sender=('[Your Brand Name]', os.getenv('HOST_USER')),
         recipients=[os.getenv('RECEIVER_MAIL')],
     )
     host_url = request.host_url
-    msg.html = render_template("Email-Template.html", host_url=host_url, name=name, message=message)
+    official_name = "[Your Official Full Name]"
+    preferred_name = "[Your Preferred Name]"
+    your_email = os.getenv('RECEIVER_MAIL')
+    professional_designation = "[Your Professional Designation/Title]"
+    x_handle = "[Your X Account Handle]"
+    linkedin_handle = "[Your LinkedIn Account Handle]"
+    copyright_text = "[Custom Copyright Text]"
+    msg.html = render_template("Email-Template.html", host_url=host_url, name=sender_name, message=message, official_name=official_name, preferred_name=preferred_name, your_email=your_email, professional_designation=professional_designation, x_handle=x_handle, linkedin_handle=linkedin_handle, copyright_text=copyright_text)
     mail.send(msg)
 
 @app.context_processor
@@ -34,12 +41,12 @@ def inject_year():
     return {'year': datetime.now().year}
 
 def get_posts():
-    response = requests.get(f'{notionProxy}/blogs')
+    response = requests.get(f'{notionProxy}/api/blogs')
     response.raise_for_status()
     return response.json()['data']
 
 def get_single_post(slug):
-    response = requests.get(f'{notionProxy}/blogs/{slug}')
+    response = requests.get(f'{notionProxy}/api/blogs/{slug}')
     response.raise_for_status()
 
     raw_data = response.json()['data']
@@ -48,16 +55,16 @@ def get_single_post(slug):
     raw_data['content'] = decoded_html
     return raw_data
 
-@app.route('/')
+@app.route('/', methods=['GET'])
 def home():
     return render_template('index.html')
 
-@app.route('/blog')
+@app.route('/blog', methods=['GET'])
 def blog():
     posts = get_posts()
     return render_template('Blog.html', Posts=posts)
 
-@app.route('/blog/<string:slug>')
+@app.route('/blog/<string:slug>', methods=['GET'])
 def post(slug):
     article = get_single_post(escape(slug))
     return render_template('Post.html', post=article)
@@ -65,26 +72,26 @@ def post(slug):
 @app.route('/contact', methods=['GET', 'POST'])
 def contact():
     if request.method == 'POST':
-        name = request.form.get('name')
-        email = request.form.get('email')
+        sender_name = request.form.get('name')
+        sender_email = request.form.get('email')
         message = request.form.get('message')
 
-        if not name or not email or not message:
+        if not sender_name or not sender_email or not message:
             flash("All fields are required.", "warning")
             return redirect('/contact')
 
         try:
-            send_mail(name, email, message)
+            send_mail(sender_name, sender_email, message)
             return redirect('/success')
         except Exception:
             logging.exception("Failed to send email")
             flash("Failed to send message! Try again", "danger")
-            return render_template('Contact.html', name=name, email=email, message=message)
+            return render_template('Contact.html', name=sender_name, email=sender_email, message=message)
 
 
     return render_template('Contact.html')
 
-@app.route('/success')
+@app.route('/success', methods=['GET'])
 def success():
     return render_template('Success.html')
 

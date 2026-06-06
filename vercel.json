@@ -1,28 +1,13 @@
 {
-    "version": 2,
-    "buildCommand": "sh build_script.sh",
-    "builds": [
-      {
-        "src": "/index.py",
-        "use": "@vercel/python",
-        "config": { 
-          "maxLambdaSize": "15mb", 
-          "runtime": "python3.11" 
-        }
-      },
-      {
-          "src": "static/**",
-          "use": "@vercel/static"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/static/(.*)",
-        "dest": "/static/$1"
-      },
-      {
-        "src": "/(.*)",
-        "dest": "/index.py"
-      }
-    ]
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "/proxy/api/:path*"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/web/:path*"
+    }
+  ]
 }
