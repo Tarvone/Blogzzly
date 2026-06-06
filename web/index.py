@@ -7,7 +7,12 @@ from dotenv import load_dotenv
 load_dotenv()
 notionProxy = os.getenv("NOTION_PROXY_URL")
 
-app = Flask(__name__, static_folder="static", template_folder="templates")
+# Calculate the precise absolute path to the directory containing index.py
+base_dir = os.path.abspath(os.path.dirname(__file__))
+static_folder_path = os.path.join(base_dir, 'static')
+template_folder_path = os.path.join(base_dir, 'templates')
+
+app = Flask(__name__, static_folder=static_folder_path, template_folder=template_folder_path)
 app.secret_key = os.getenv("SECRET_KEY")
 
 # configuration of mail

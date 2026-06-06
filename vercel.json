@@ -12,7 +12,11 @@
   ],
   "routes": [
     {
-      "src": "/api/proxy/(.*)",
+      "src": "/api/blogs",
+      "dest": "proxy/api/index.js"
+    },
+    {
+      "src": "/api/blogs/(.*)",
       "dest": "proxy/api/index.js"
     },
     {
