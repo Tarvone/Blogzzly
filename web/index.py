@@ -24,6 +24,9 @@ app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USE_SSL'] = False
 mail = Mail(app)
 
+x_handle = "[Your X Account Handle]"
+linkedin_handle = "[Your LinkedIn Account Handle]"
+
 def send_mail(sender_name, sender_email, message):
     msg = Message(
         subject=f"Blogzzly contact form submission from {sender_name} <{sender_email}>",
@@ -35,8 +38,6 @@ def send_mail(sender_name, sender_email, message):
     preferred_name = "[Your Preferred Name]"
     your_email = os.getenv('RECEIVER_MAIL')
     professional_designation = "[Your Professional Designation/Title]"
-    x_handle = "[Your X Account Handle]"
-    linkedin_handle = "[Your LinkedIn Account Handle]"
     copyright_text = "[Custom Copyright Text]"
     msg.html = render_template("Email-Template.html", host_url=host_url, name=sender_name, message=message, official_name=official_name, preferred_name=preferred_name, your_email=your_email, professional_designation=professional_designation, x_handle=x_handle, linkedin_handle=linkedin_handle, copyright_text=copyright_text)
     mail.send(msg)
@@ -44,6 +45,12 @@ def send_mail(sender_name, sender_email, message):
 @app.context_processor
 def inject_year():
     return {'year': datetime.now().year}
+
+@app.context_processor
+def inject_footer_links():
+    github_handle = "[Your GitHub Account Handle]"
+
+    return {'year': datetime.now().year, 'github': github_handle, 'linkedin': linkedin_handle, 'x': x_handle }
 
 def get_posts():
     response = requests.get(f'{notionProxy}/api/blogs')
